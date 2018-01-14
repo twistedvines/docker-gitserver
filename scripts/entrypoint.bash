@@ -10,6 +10,7 @@
 
 # source: https://denibertovic.com/posts/handling-permissions-with-docker-volumes/
 
+# default to the first non-root user
 USER_ID="${LOCAL_USER_ID:-1001}"
 
 echo "Starting with UID: $USER_ID"
